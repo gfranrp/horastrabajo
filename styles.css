@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="date"],
+  input[type="number"],
+  button {
+    margin-bottom: 10px;
+  }
+  
+  #displayHours {
+    margin-top: 20px;
+  }
+  
+  #displayHours table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #displayHours th,
+  #displayHours td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #displayHours th {
+    background-color: #f2f2f2;
+  }
+  
